@@ -1,12 +1,8 @@
 {
     "version": 2,
-"builds":[
-    {
-        "src": "*„js",
-"use": "@vercel/node"
-
-    }
-],
+"builds": [
+    {"src": "api/**/*.js", "use": "@now/node"}
+  ],
 "routes":[
     {
         "src": "/(.米)",
